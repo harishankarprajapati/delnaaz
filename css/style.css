@@ -1,0 +1,264 @@
+body {
+    font-family: 'Rosario';
+}
+
+.sec-logo {
+    width: 100%;
+    height: 70px;
+}
+
+a.nav-link.text-light.font-weight-bold {
+    font-family: 'Rosario';
+
+}
+
+.sec-bg-2 {
+    background-color: #000000;
+}
+
+.sec-bg-3 {
+    background-image: url(../images/ds1.png);
+    background-repeat: no-repeat;
+    background-position: top 0px right 0px;
+
+
+}
+
+.sec-Gallery {
+    font-family: 'Lobster';
+    font-size: 50px;
+    color: #000000;
+}
+.sec-Gallery6 {
+    font-family: 'Lobster';
+    font-size: 50px;
+    color: #000000;
+}
+
+.sec-bg-4 {
+    background-image: url(../images/ds2.png);
+    background-repeat: no-repeat;
+    background-position: top 0px 0px;
+
+}
+
+.sec-Gallery2 {
+    font-family: 'Rosario';
+    font-size: 50px;
+    color: #000000;
+}
+
+.sec-bg-5 {
+    background-image: url(../images/Group\ 50.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.sec-bg-6 {
+    background-image: url(../images/design\ 3.png);
+    background-repeat: no-repeat;
+    background-position: top 0px 0px;
+
+}
+.bg-sec{
+    background-image: url(../images/image\ 20\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 500px !important;
+}
+.sec-Gallery3 {
+    font-family: 'Rosario';
+    font-size: 45px;
+    color: #000000;
+    padding-left: 80px !important;
+}
+.sec-pad{
+    padding-bottom: 170px !important;
+    margin-top: 110px;
+}
+.sec-Gallery4 {
+    font-family: 'Rosario';
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    padding-left: 80px !important;
+    padding-top: 30px;
+    padding-right: 80px;
+    padding-bottom: 170px !important;
+}
+.but-get{
+    background-color: #998440 !important;
+    color: #ffffff !important;
+    padding: 10px 30px !important;
+    margin-left: 80px;
+  
+}
+.but-get:hover{
+    background-color: #dac275 !important;
+    color: #b9b3b3;
+    text-decoration: none !important;
+}
+.sec-bg-7 {
+    background-image: url(../images/Group\ 52.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.sec-Gallery5 {
+    font-family: 'Rosario';
+    font-size: 45px;
+    font-weight: 500;
+    color: #000000;
+}
+.slider-sec-text{
+    font-family: 'Rosario';
+    font-size: 25px;
+    font-weight: 400;
+    color: #000000;
+}
+.sec-bg-51 {
+    background-color: #f2efe6;
+}
+
+.sec-bg-52 {
+    background-color: #111;
+   
+}
+.sec-foot p, h2{
+    font-family: 'Lora' !important;
+}
+.sec-icon{
+    font-size: 22px;
+}
+
+@media (max-width: 767px) {
+    .sec-Gallery3 {
+        font-family: 'Rosario';
+        font-size: 25px;
+        color: #000000;
+        padding-left: 50px !important;
+    }
+    .sec-Gallery {
+        font-size: 25px;
+    }
+    .sec-Gallery6 {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    .sec-welp{
+        padding: 20px !important;
+    }
+    .sec-Gallery4 {
+        font-size: 18px;
+        padding-left: 70px !important;
+        padding-top: 30px;
+        padding-right: 80px;
+        padding-bottom: 0px !important;
+    }
+    .sec-Gallery2 {
+        font-size: 35px;
+    }
+    .sec-pad{
+        padding-bottom: 30px !important;
+        margin-top: 30px !important;
+    }
+    .sec-f-im{
+        padding: 0px !important;
+    }
+    .sec-f-p{
+        padding: 20px !important;
+    }
+    .sec-Gallery5 {
+        font-size: 35px;
+    }
+    .sec-f-p2{
+        padding: 8px !important;
+    }
+    .slider-sec-text{
+        font-size: 15px;
+    }
+}
+/* ---------------------------------about-page------------------------ */
+.sec-abo-h{
+    font-family: 'Rosario';
+    font-size: 80px;
+    font-weight: 700;
+    color: #000000;
+}
+
+
+/* ------------------------gallery-page--------------- */
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 25px auto;
+    font-size: 18px;
+    color: #999;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+/* Override bootstrap column paddings */
+.tz-gallery .row > div {
+    padding: 2px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+.tz-gallery .lightbox:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -13px;
+    opacity: 0;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Glyphicons Halflings';
+    content: '\e003';
+    pointer-events: none;
+    z-index: 9000;
+    transition: 0.4s;
+}
+
+
+.tz-gallery .lightbox:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(46, 132, 206, 0.7);
+    content: '';
+    transition: 0.4s;
+}
+
+.tz-gallery .lightbox:hover:after,
+.tz-gallery .lightbox:hover:before {
+    opacity: 1;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+}
