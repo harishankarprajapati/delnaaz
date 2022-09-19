@@ -334,3 +334,17 @@ input.form-control {
     border-radius:0px ;
     padding: 20px 60px;
 }
+.sec-f-bg2{
+    background-image: url(../images/Group\ 100.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.sec-f-bg3{
+    background-image: url(../images/r144.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 8%;
+    padding-bottom: 10%;
+}
