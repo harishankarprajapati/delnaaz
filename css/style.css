@@ -365,3 +365,22 @@ input.form-control {
         height: 350px;
     }
 }
+/* ------------------------services-page---------------- */
+.btn-orange {
+    color: #ffffff!important;
+    background-color: #B99B39!important;
+    border-color: #B99B39!important;
+}
+.text-orange {
+    color: #B99B39;
+}
+.Sec-but {
+    color: #ffffff !important;
+    background-color: #B99B39 !important;
+    font-weight: bold !important;
+    font-size: 17px !important;
+    border: 1px solid#B99B39 !important;
+    border-radius: 6px;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+}
