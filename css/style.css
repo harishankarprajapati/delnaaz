@@ -132,6 +132,9 @@ a.nav-link.text-light.font-weight-bold {
 .sec-icon{
     font-size: 22px;
 }
+.sec-welp{
+    font-size: 30px !important;
+}
 
 @media (max-width: 767px) {
     .sec-Gallery3 {
@@ -149,6 +152,7 @@ a.nav-link.text-light.font-weight-bold {
     }
     .sec-welp{
         padding: 20px !important;
+        font-size: 20px !important;
     }
     .sec-Gallery4 {
         font-size: 18px;
