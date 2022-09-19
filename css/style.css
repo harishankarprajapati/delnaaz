@@ -347,3 +347,10 @@ input.form-control {
     padding-top: 8%;
     padding-bottom: 10%;
 }
+@media(max-width: 767px) {
+  
+    .sec-p-f1{
+        font-size: 20px;
+        padding: 1px 20px !important;
+    }
+}
