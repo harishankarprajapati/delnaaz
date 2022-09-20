@@ -328,6 +328,7 @@ input.form-control {
     color: #fff;
     font-size: 25px;
     border-radius:0px ;
+    border: 2px solid #FFF;
     padding: 20px 60px;
 }
 .btn-sec:hover{
@@ -383,4 +384,28 @@ input.form-control {
     border-radius: 6px;
     font-weight: 400 !important;
     text-transform: uppercase;
+}
+/* --------------------Contact-page-------------- */
+.icon {
+    padding-top: 20px;
+    font-size: 40px;
+}
+.con-bg{
+    margin-top: -40px;
+}
+.hr1 {
+    width: 85px;
+    border-top: 4px solid #333333;
+}
+.sec-form{
+    width: 80%;
+}
+.btn{
+    background-color: #B99B39;
+}
+@media (max-width: 768px) {
+    .con-bg{
+        margin-top: 50px;
+    }
+    
 }
