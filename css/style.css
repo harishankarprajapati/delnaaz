@@ -165,13 +165,20 @@ input[type="range"]{
     padding-top: 30px;
     padding-right: 80px;
 }
-.but-get{
+.but-get2{
     background-color: #998440 !important;
     color: #ffffff !important;
     padding: 10px 30px !important;
+    margin-left: 85px
   
 }
+
 .but-get:hover{
+    background-color: #dac275 !important;
+    color: #b9b3b3;
+    text-decoration: none !important;
+}
+.but-get2:hover{
     background-color: #dac275 !important;
     color: #b9b3b3;
     text-decoration: none !important;
@@ -213,7 +220,7 @@ input[type="range"]{
     font-size: 30px !important;
 }
 .sec-welp2{
-    font-size: 20px !important;
+    font-size: 16px !important;
 }
 
 
