@@ -165,6 +165,12 @@ input[type="range"]{
     padding-top: 30px;
     padding-right: 80px;
 }
+.but-get{
+    background-color: #998440 !important;
+    color: #ffffff !important;
+    padding: 10px 30px !important;
+  
+}
 .but-get2{
     background-color: #998440 !important;
     color: #ffffff !important;
@@ -405,6 +411,16 @@ input.form-control {
     padding: 20px;
     border-radius: 0;
 }
+select#inputState {
+    background: transparent;
+    border-radius: 0px !important;
+    border: 3px solid #fff;
+    font-size: 20px;
+    color: #fff;
+}
+option{
+    color: #000 !important;
+}
 ::placeholder {
     color: #fff !important;
     font-size: 25px;
@@ -483,3 +499,9 @@ input.form-control {
     font-size: 40px;
 }
 
+/* --------Academy-page----------------- */
+.sec-acd-bg{
+    background-image: url(../images/Rectangle\ 141.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
