@@ -139,6 +139,11 @@ input[type="range"]{
     color: #000000;
     padding-left: 80px !important;
 }
+.sec-Gallery31 {
+    font-family: 'Rosario';
+    font-size: 45px;
+    color: #000000;
+}
 .sec-pad{
     padding-bottom: 60px !important;
     margin-top: 110px;
@@ -152,11 +157,18 @@ input[type="range"]{
     padding-top: 30px;
     padding-right: 80px;
 }
+.sec-Gallery41 {
+    font-family: 'Rosario';
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 30px;
+    padding-right: 80px;
+}
 .but-get{
     background-color: #998440 !important;
     color: #ffffff !important;
     padding: 10px 30px !important;
-    margin-left: 80px;
   
 }
 .but-get:hover{
@@ -173,7 +185,7 @@ input[type="range"]{
 .sec-Gallery5 {
     font-family: 'Rosario';
     font-size: 45px;
-    font-weight: 500;
+    font-weight: 700;
     color: #000000;
 }
 .slider-sec-text{
@@ -212,6 +224,11 @@ input[type="range"]{
         color: #000000;
         padding-left: 50px !important;
     }
+    .sec-Gallery31 {
+        font-family: 'Rosario';
+        font-size: 25px;
+        color: #000000;
+    }
     .sec-Gallery {
         font-size: 25px;
     }
@@ -237,11 +254,10 @@ input[type="range"]{
         padding-bottom: 30px !important;
         margin-top: 30px !important;
     }
-    .sec-f-im{
-        padding: 0px !important;
-    }
+    
     .sec-f-p{
         padding: 20px !important;
+      
     }
     .sec-Gallery5 {
         font-size: 35px;
