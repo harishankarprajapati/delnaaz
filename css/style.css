@@ -423,7 +423,7 @@ option{
 }
 ::placeholder {
     color: #fff !important;
-    font-size: 25px;
+    font-size: 20px !important
   }
   textarea.form-control {
     background-color: transparent;
