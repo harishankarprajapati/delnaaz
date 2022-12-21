@@ -332,6 +332,10 @@ input[type="range"]::-webkit-slider-thumb {
         color: #000000;
         padding-left: 50px !important;
     }
+    .sec-ind-a{
+        font-size: 19px;
+        text-align: center;
+    }
 
     .sec-Gallery31 {
         font-family: 'Rosario';
@@ -341,7 +345,8 @@ input[type="range"]::-webkit-slider-thumb {
     }
 
     .sec-Gallery {
-        font-size: 25px;
+        font-size: 19px;
+        padding-top: 17px;
     }
 
     .sec-Gallery6 {
