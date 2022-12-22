@@ -251,6 +251,7 @@ h2 {
 
 .sec-welp {
     font-size: 30px !important;
+    text-align: justify;
 }
 
 .sec-welp2 {
@@ -495,6 +496,7 @@ hr.sce-hr-f {
 
 .sec-p-f {
     font-size: 20px;
+    text-align: justify;
 }
 
 .sec-p-f2 li {
