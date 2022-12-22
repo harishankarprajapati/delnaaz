@@ -246,6 +246,7 @@ h2 {
 
 .sec-icon {
     font-size: 22px;
+    
 }
 
 .sec-welp {
@@ -611,7 +612,10 @@ textarea.form-control {
 }
 
 @media(max-width: 767px) {
-
+    .sec-mobi{
+        float: none !important;
+        text-align: center !important;
+    }
     .sec-p-f1 {
         font-size: 20px;
         padding: 1px 20px !important;
