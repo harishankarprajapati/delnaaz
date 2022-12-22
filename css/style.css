@@ -179,6 +179,7 @@ input[type="range"]::-webkit-slider-thumb:active {
     font-weight: 400;
     color: #000000;
     padding-top: 30px;
+    text-align: justify;
     padding-right: 80px;
 }
 
@@ -380,7 +381,7 @@ input[type="range"]::-webkit-slider-thumb {
 
     .sec-f-p {
         padding: 15px !important;
-        text-align: center;
+        text-align: justify !important;
 
     }
 
