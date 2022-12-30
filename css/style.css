@@ -331,8 +331,53 @@ input[type="range"]::-webkit-slider-thumb {
     cursor: pointer;
     border-radius: 3px;
 }
+.become-franchise-section .intro-img{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.become-franchise-section{
+    padding: 120px 0px;
+}
+.fancy-title{
+    position: relative;
+    font-size: 28px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+}
+.fancy-title:before{
+    content: "";
+    background-image: url("../images/Rectangle 4.png");
+    width: 71px;
+    height: 6px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0px;
+    margin: auto;
+}
+.fancy-title:after{
+    content: "";
+    background-image: url("../images/Rectangle 5.png");
+    width: 71px;
+    height: 6px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0px;
+    margin: auto;
+}
+.three-links{
+    padding: 10px 0px;
+}
 
 @media (max-width: 767px) {
+
+    .fancy-title{
+        font-size: 20px;
+        padding: 5px 0px;
+    }
     .sec-Gallery3 {
         font-family: 'Rosario';
         font-size: 25px;
