@@ -733,3 +733,23 @@ textarea.form-control {
     color: #ffffff;
 }
 
+
+.owl-carousel .owl-item img {
+	display: inline-block !important;
+	width: auto;
+}
+.author-img img {
+	width: 70px !important;
+	height: auto;
+	border-radius: 100%;
+}
+.font-medium {
+	font-weight: 500;
+}
+.border-radius-new {
+	border-radius: 20px;
+}
+img.comms {
+	width: 40px !important;
+	height: auto;
+}
